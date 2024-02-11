@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "412289997343",
+    "project_id": "crypto-list-app-6b855",
+    "storage_bucket": "crypto-list-app-6b855.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412289997343:android:814c8144b29700a096532a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxybkWQI0QP9EFhZHw3m_ULHsU9Q0Kd-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
