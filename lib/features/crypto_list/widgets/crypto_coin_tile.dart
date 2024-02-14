@@ -1,4 +1,6 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_projects/router/router.dart';
 
 import '../../../repositories/crypto_coins/crypto_coins.dart';
 
@@ -23,7 +25,8 @@ class CryptoCoinTile extends StatelessWidget {
       ),
       subtitle: Text("${coinDetails.priceInUSD}\$", style: theme.textTheme.labelSmall),
       onTap: () {
-        Navigator.of(context).pushNamed("/coin", arguments: coin);
+        // Navigator.of(context).pushNamed("/coin", arguments: coin);
+        AutoRouter.of(context).push(CryptoCoinRoute(coin: coin));
       },
     );
   }
